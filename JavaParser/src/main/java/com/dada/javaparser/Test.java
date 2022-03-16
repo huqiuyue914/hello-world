@@ -42,7 +42,6 @@ public class Test {
 		return numbers.pop();
 	}
 	public double memoryRecall(){
-		this.memory++;
 		return memory;
 	}
 	
