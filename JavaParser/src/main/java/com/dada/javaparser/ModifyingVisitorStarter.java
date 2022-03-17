@@ -29,7 +29,8 @@ public class ModifyingVisitorStarter {
 	
 	static String formatWithUnderscores(String value){ 
 		String withoutUnderscores = value.replaceAll("_", ""); 
-		return LOOK_AHEAD_THREE.matcher(withoutUnderscores).replaceAll("$1_"); 
+		System.out.println("Java Language");
+		return LOOK_AHEAD_THREE.matcher(withoutUnderscores).replaceAll("$1_");	
 	}
 	
 	private static final String FILE_PATH = "src/main/java/com/dada/javaparser/ReversePolishNotation.java";
