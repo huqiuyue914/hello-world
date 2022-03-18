@@ -42,6 +42,7 @@ public class Test {
 		return numbers.pop();
 	}
 	public double memoryRecall(){
+		//this is java method
 		return memory;
 	}
 	
