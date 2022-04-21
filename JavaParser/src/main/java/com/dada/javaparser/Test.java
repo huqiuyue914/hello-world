@@ -44,12 +44,15 @@ public class Test {
 	
 	public void addMethod() {}
 	
+	public void addMethod_2() {}
+	
 	public double memoryRecall(){
 		//this is java method
 		return memory;
 	}
 	
 	public void memoryClear(){
+		String s = "I am new";
 		memory = 0;
 	}
 	
